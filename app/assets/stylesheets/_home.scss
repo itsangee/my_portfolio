@@ -1,4 +1,11 @@
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
 
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
 
 .profile-pic {
   background: white;                         /* White background */
@@ -16,6 +23,7 @@
   // justify-content: space-around;
   margin: 100px;
   padding: 10px;
+  // display: contents;
 }
 
 .div-1 {
@@ -29,10 +37,14 @@
   // display: flex;
   // justify-content: flex-start;
   font-family: 'Cormorant Infant', serif;
+  color: whitesmoke;
 }
 
 p {
   font-family: 'Cormorant Infant', serif;
+  color: wheat;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 hr {
@@ -42,5 +54,10 @@ hr {
 
 .title {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 35px;
+}
+
+html body {
+  height: 100%;
+  margin: 0;
 }
