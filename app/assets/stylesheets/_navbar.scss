@@ -1,5 +1,5 @@
-ul {
-  list-style-type: none;
+.navbar {
+  // list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
@@ -9,18 +9,18 @@ ul {
   width: 100px;
 }
 
-ul {
+.nav-li {
+  display: inline;
+}
+
+.navbar {
 font-family: 'Cormorant Infant', serif;
 // font-family: 'Unna', serif;
+font-size: 21px;
 
 }
 
-li {
-  display: block;
-  // float: left;
-}
-
-li a {
+.navbar a {
   display: block;
   color: black;
   text-align: left;
@@ -28,7 +28,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: white;
+.navbar a:hover {
+  background-color: wheat;
   font-weight: bold;
 }
