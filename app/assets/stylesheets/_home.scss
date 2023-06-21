@@ -33,16 +33,18 @@
   padding: 12px;
 }
 
-.title {
+.title-1 {
   // display: flex;
   // justify-content: flex-start;
   font-family: 'Cormorant Infant', serif;
-  color: whitesmoke;
+  color: #293330;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 p {
   font-family: 'Cormorant Infant', serif;
-  color: wheat;
+  color: #DE8442;
   font-size: 18px;
   font-weight: bold;
 }
@@ -52,10 +54,6 @@ hr {
   // border-top: 3px double #8c8b8b;
 }
 
-.title {
-  font-weight: bold;
-  font-size: 35px;
-}
 
 html body {
   height: 100%;
