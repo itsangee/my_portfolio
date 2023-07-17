@@ -1,53 +1,21 @@
 .container-2 {
-  width: 830px;
-  padding: 100px 25px;
+  width: fit-content;
+  padding: 0 auto;
   margin: 0 auto;
 }
 
-.title.right {
-  left: 200px;
-}
-
-.title {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .title .p-1 {
-  transform: rotate(90deg);
+  text-align: center;
+  color: #293330;
+  font-size: 30px;
 }
 
-.p-1 {
-  font-family: 'Cormorant Infant', serif;
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.title .right .p-1 {
-  padding: 5px 10px;
-  font-weight: 400;
-  background-color: white;
-  transform-origin: 50%;
-  border-radius: 4px;
-}
-
-.title::after {
-  content: "";
-  position: absolute;
-  height: 39%;
-  width: 1px;
-  margin: 102px 0;
-  background: white;
-  z-index: -1;
-}
 
 .omg {
-  padding-right: 10px;
   display: flex;
-  // flex-wrap: wrap;
+  flex-wrap: inherit;
+  // opacity: 0.6;
 }
 
 .omg>:first-of-type {
@@ -55,7 +23,7 @@
 }
 
 .omg .to-do {
-  background-color: white;
+  background-color:#FFFDEF;
   padding: 6px 20px;
   margin: 0 17px;
   display: flex;
@@ -76,4 +44,8 @@
 
 h4 {
   margin: 0;
+  font-family: 'Cormorant Infant', serif;
+  font-weight: bold;
+  font-size: 19px;
+  color: #DE8442;
 }
