@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # root to: 'homepage/home'
   # Defines the root path route ("/")
   # root "articles#index"
-  get 'home', to: 'homepage#home'
+  root to: 'homepage#home'
 
   resources :contact, only: [:create]
 end
