@@ -1,4 +1,9 @@
 class ContactsController < ApplicationController
+
+  def index
+    @contact = ContactForm.new
+  end
+
   def create
     @contact = Contact.new
     @contact.create(contact_params)
