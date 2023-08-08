@@ -7,7 +7,7 @@
   "name": "my_portfolio",
   "version": "1.0.0",
   "description": "My_portfolio",
-  "main": " node index.js",
+  "main": "node index.js",
   "repository": "git@github.com:itsangee/my_portfolio.git",
   "author": "angelee otic <otic.angeleemae@gmail.com>",
   "license": "MIT",
