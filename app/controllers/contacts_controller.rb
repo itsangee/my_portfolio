@@ -11,6 +11,7 @@ class ContactsController < ApplicationController
       render json: { message: 'Email sent successfully' }
     else
       render json: @contact.errors
+
     end
   end
 
