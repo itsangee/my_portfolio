@@ -1,7 +1,7 @@
 # Note: You must restart bin/webpack-dev-server for changes to take effect
 
 default: &default
-  source_path: app/javascript
+  source_path: app/javascript/application.js
   source_entry_path: packs
   public_root_path: public
   public_output_path: packs
@@ -55,8 +55,8 @@ development:
   dev_server:
     https: false
     host: localhost
-    port: 3035
-    public: localhost:3035
+    port: 3000
+    public: localhost:3000
     hmr: false
     # Inline should be set to true if using HMR
     inline: true
