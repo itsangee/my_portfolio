@@ -1,4 +1,9 @@
+
 {
+  "scripts": {
+    "start": "node index.js"
+ },
+
   "dependencies": {
     "@rails/webpacker": "5.4.4",
     "webpack": "^4.46.0",
